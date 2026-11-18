@@ -1,154 +1,247 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laje Sonora | Oficinas</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Big+Shoulders:wght@900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="oficinas.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laje Sonora | Início</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Big+Shoulders:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <header class="topo conteudo">
-    <a class="logo" href="index.html">Laje Sonora</a>
-    <nav class="menu">
-      <a href="index.html">Início</a>
-      <a href="oficinas.html" class="atual">Oficinas</a>
-      <a href="inscricao.html">Inscrição</a>
-    </nav>
-  </header>
 
-  <main class="conteudo">
-    <h1 class="titulo-pagina">Oficinas</h1>
-    <p class="subtitulo-pagina">Cada oficina tem um encontro por semana, de uma hora e meia. Você pode fazer mais de uma, desde que os horários não se cruzem.</p>
-    <div class="filtros">
-      <span class="filtro ativo">Todas</span>
-      <span class="filtro">Iniciante</span>
-      <span class="filtro">Intermediário</span>
-      <span class="filtro">Cordas</span>
-      <span class="filtro">Teclas</span>
-      <span class="filtro">Voz</span>
-      <span class="filtro">Ritmo</span>
-      <span class="filtro">Produção</span>
-    </div>
-    <div class="lista">
-      <article class="oficina">
-        <div class="foto foto-azul"></div>
-        <div class="oficina-texto">
-          <h2>Violão do zero</h2>
-          <p>Você sai da primeira aula tocando três acordes. No fim do semestre, toca uma música inteira com a turma.</p>
-          <div class="etiquetas">
-            <span class="etiqueta">Iniciante</span>
-            <span class="etiqueta">Cordas</span>
-          </div>
-        </div>
-        <div class="oficina-detalhes">
-          <strong>Segundas</strong>
-          <span>Das 17h às 18h30</span>
-          <span>4 vagas restantes</span>
-          <a href="inscricao.html">Quero me inscrever</a>
-        </div>
-      </article>
+    <header class="conteudo topo">
+        <a class="logo" href="index.html">Laje Sonora</a>
 
-      <article class="oficina">
-        <div class="foto foto-amarela"></div>
-        <div class="oficina-texto">
-          <h2>Produção de beats</h2>
-          <p>Batidas, linhas de baixo e samples montados no computador. Os computadores da escola já vêm com os programas instalados.</p>
-          <div class="etiquetas">
-            <span class="etiqueta">Iniciante</span>
-            <span class="etiqueta">Produção</span>
-          </div>
-        </div>
-        <div class="oficina-detalhes">
-          <strong>Terças</strong>
-          <span>Das 18h às 19h30</span>
-          <span>2 vagas restantes</span>
-          <a href="inscricao.html">Quero me inscrever</a>
-        </div>
-      </article>
+        <nav class="menu">
+            <a class="atual" href="index.html">Início</a>
+            <a href="oficinas.html">Oficinas</a>
+            <a href="inscricao.html">Inscrição</a>
+        </nav>
+    </header>
 
-      <article class="oficina">
-        <div class="foto foto-tinta"></div>
-        <div class="oficina-texto">
-          <h2>Canto em grupo</h2>
-          <p>Exercícios de respiração e afinação, e depois arranjos a várias vozes com músicas que a própria turma escolhe.</p>
-          <div class="etiquetas">
-            <span class="etiqueta">Todos os níveis</span>
-            <span class="etiqueta">Voz</span>
-          </div>
-        </div>
-        <div class="oficina-detalhes">
-          <strong>Quartas</strong>
-          <span>Das 17h às 18h30</span>
-          <span>9 vagas restantes</span>
-          <a href="inscricao.html">Quero me inscrever</a>
-        </div>
-      </article>
+    <main>
 
-      <article class="oficina">
-        <div class="foto"></div>
-        <div class="oficina-texto">
-          <h2>Teclado e harmonia</h2>
-          <p>Para quem já toca um pouco e quer entender o que está tocando. Campo harmônico, inversões e acompanhamento.</p>
-          <div class="etiquetas">
-            <span class="etiqueta">Intermediário</span>
-            <span class="etiqueta">Teclas</span>
-          </div>
-        </div>
-        <div class="oficina-detalhes">
-          <strong>Quintas</strong>
-          <span>Das 18h às 19h30</span>
-          <span>5 vagas restantes</span>
-          <a href="inscricao.html">Quero me inscrever</a>
-        </div>
-      </article>
+        <section class="conteudo cartazes">
 
-      <article class="oficina">
-        <div class="foto foto-azul"></div>
-        <div class="oficina-texto">
-          <h2>Bateria e percussão</h2>
-          <p>Começa com palmas e pés, passa pelo pandeiro e termina na bateria completa. Ninguém precisa ter instrumento em casa.</p>
-          <div class="etiquetas">
-            <span class="etiqueta">Iniciante</span>
-            <span class="etiqueta">Ritmo</span>
-          </div>
-        </div>
-        <div class="oficina-detalhes">
-          <strong>Sextas</strong>
-          <span>Das 17h às 18h30</span>
-          <span>6 vagas restantes</span>
-          <a href="inscricao.html">Quero me inscrever</a>
-        </div>
-      </article>
+            <div class="cartaz cartaz-principal">
+                <h1>Música se aprende fazendo barulho</h1>
+            </div>
 
-      <article class="oficina">
-        <div class="foto foto-amarela"></div>
-        <div class="oficina-texto">
-          <h2>Gravação no celular</h2>
-          <p>Como posicionar o celular, gravar voz e instrumento separados e juntar tudo num aplicativo gratuito de edição.</p>
-          <div class="etiquetas">
-            <span class="etiqueta">Todos os níveis</span>
-            <span class="etiqueta">Produção</span>
-          </div>
-        </div>
-        <div class="oficina-detalhes">
-          <strong>Sábados</strong>
-          <span>Das 10h às 11h30</span>
-          <span>7 vagas restantes</span>
-          <a href="inscricao.html">Quero me inscrever</a>
-        </div>
-      </article>
-    </div>
-  </main>
+            <div class="cartaz cartaz-lateral">
+                <p>
+                    Oficinas para quem tem de 14 a 18 anos.
+                    Turmas de até 12 pessoas, no fim da tarde,
+                    com instrumento emprestado para quem não tem.
+                </p>
 
-  <footer class="rodape">
-    <div class="conteudo">
-      <div class="rodape-colunas">
-        <div class="rodape-coluna"><h4>Laje Sonora</h4><p>…</p></div>
-        <div class="rodape-coluna"><h4>Oficinas</h4><p>…</p></div>
-        <div class="rodape-coluna"><h4>Contato</h4><p>…</p></div>
-        <div class="rodape-coluna"><h4>Horários</h4><p>…</p></div>
-      </div>
-    </div>
+                <a class="botao" href="oficinas.html">Ver as oficinas</a>
+            </div>
+
+        </section>
+
+        <section class="conteudo secao">
+
+            <h2 class="titulo-secao">Seis oficinas para começar</h2>
+
+            <div class="cards">
+
+                <article class="card">
+                    <div class="foto foto-azul"></div>
+
+                    <div class="card-texto">
+                        <h3>Violão do zero</h3>
+
+                        <p>
+                            Os primeiros acordes e as batidas que aparecem
+                            em quase toda música que você ouve.
+                        </p>
+
+                        <div class="card-info">
+                            <span>Iniciante</span>
+                            <span>Segundas</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="foto foto-amarela"></div>
+
+                    <div class="card-texto">
+                        <h3>Produção de beats</h3>
+
+                        <p>
+                            Montar uma batida no computador, do primeiro
+                            bumbo até a música pronta para postar.
+                        </p>
+
+                        <div class="card-info">
+                            <span>Iniciante</span>
+                            <span>Terças</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="foto foto-tinta"></div>
+
+                    <div class="card-texto">
+                        <h3>Canto em grupo</h3>
+
+                        <p>
+                            Afinação, respiração e vozes em harmonia,
+                            cantando junto com a turma toda.
+                        </p>
+
+                        <div class="card-info">
+                            <span>Todos os níveis</span>
+                            <span>Quartas</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="foto"></div>
+
+                    <div class="card-texto">
+                        <h3>Teclado e harmonia</h3>
+
+                        <p>
+                            Entender por que alguns acordes combinam
+                            e tocar as músicas que você gosta.
+                        </p>
+
+                        <div class="card-info">
+                            <span>Intermediário</span>
+                            <span>Quintas</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="foto foto-azul"></div>
+
+                    <div class="card-texto">
+                        <h3>Bateria e percussão</h3>
+
+                        <p>
+                            Ritmo no corpo primeiro, depois nas baquetas.
+                            Do samba ao rock, passando pelo funk.
+                        </p>
+
+                        <div class="card-info">
+                            <span>Iniciante</span>
+                            <span>Sextas</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="foto foto-amarela"></div>
+
+                    <div class="card-texto">
+                        <h3>Gravação no celular</h3>
+
+                        <p>
+                            Gravar, editar e mixar uma música usando
+                            só o celular e um fone de ouvido.
+                        </p>
+
+                        <div class="card-info">
+                            <span>Todos os níveis</span>
+                            <span>Sábados</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="conteudo secao">
+
+            <h2 class="titulo-secao">Como funciona</h2>
+
+            <div class="passos">
+
+                <div class="passo">
+                    <p class="passo-numero">1</p>
+
+                    <h3>Escolha uma oficina</h3>
+
+                    <p>
+                        Veja os dias, os horários e o nível de cada uma.
+                        Não precisa saber tocar nada.
+                    </p>
+                </div>
+
+                <div class="passo">
+                    <p class="passo-numero">2</p>
+
+                    <h3>Faça a inscrição</h3>
+
+                    <p>
+                        Preencha o formulário com seus dados.
+                        A gente responde em até dois dias.
+                    </p>
+                </div>
+
+                <div class="passo">
+                    <p class="passo-numero">3</p>
+
+                    <h3>Venha para a aula experimental</h3>
+
+                    <p>
+                        A primeira aula é gratuita. Se gostar,
+                        sua vaga fica garantida até o fim do semestre.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+        <div class="conteudo rodape-colunas">
+
+            <div class="rodape-coluna">
+                <h4>Laje Sonora</h4>
+                <p>Escola livre de música para adolescentes.</p>
+            </div>
+
+            <div class="rodape-coluna">
+                <h4>Endereço</h4>
+                <p>
+                    Rua das Antenas, 120<br>
+                    São Paulo, SP
+                </p>
+            </div>
+
+            <div class="rodape-coluna">
+                <h4>Horários</h4>
+                <p>
+                    Segunda a sexta, das 16h às 21h<br>
+                    Sábado, das 9h às 13h
+                </p>
+            </div>
+
+            <div class="rodape-coluna">
+                <h4>Contato</h4>
+                <p>
+                    contato@lajesonora.com.br<br>
+                    (11) 91234 5678
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
